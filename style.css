@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 1rem; /* 16px */
+    line-height: 1.5rem; /* 24px */
+}
+.h-max {
+    height: 70vh;
+}
+.h-8 {
+    height: 8px;
+}
+.h-16 {
+    height: 16px;
+}
+.h-24 {
+    height: 24px;
+}
+.h-28 {
+    height: 28px;
+}
+.h-32 {
+    height: 32px;
+}
+.h-64 {
+    height: 64px;
+}
+.h-fill {
+    height: max-content;
+}
+
+.m-auto {
+    margin: auto;
+}
+.mx-auto {
+    margin-right: auto;
+    margin-left: auto;
+}
+.mx-12 {
+    margin-right: 12px;
+    margin-left: 12px;
+}
+.my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.m-0 {
+    margin: 0;
+}
+.mt-4 {
+    margin-top: 4px;
+}
+.mt-12 {
+    margin-top: 12px;
+}
+.mt-32 {
+    margin-top: 32px;
+}
+
+.mr-32 {
+    margin-right: 32px;
+}
+.ml-32 {
+    margin-left: 32px;
+}
+
+
+.p-auto {
+    padding: auto;
+}
+.p-0 {
+    padding: 0;
+}
+.p-2 {
+    padding: 2px;
+}
+.p-4 {
+    padding: 4px;
+}
+.p-16 {
+    padding: 16px;
+}
+
+.py-auto {
+    padding-top: auto;
+    padding-bottom: auto;
+}
+.py-16 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.px-auto {
+    padding-right: auto;
+    padding-left: auto;
+}
+.px-4 {
+    padding-right: 4px;
+    padding-left: 4px;
+}
+.px-16 {
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.px-32 {
+    padding-right: 32px;
+    padding-left: 32px;
+}
+.px-64 {
+    padding-right: 64px;
+    padding-left: 64px;
+}
+.pr-16 {
+    padding-right: 16px;
+}
+.pl-16 {
+    padding-left: 16px;
+}
+
+.inline {
+    display: inline; 
+}
+
+.block {
+    display: block;
+}
+.inline-block {
+    display: inline-block;
+}
+
+.flex {
+    display: flex;
+}
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.one {
+    flex-basis: 33.33%;
+}
+.two {
+    flex-basis: 66.66%;
+}
+
+
+.max-w-lg {
+    max-width: 1200px;
+}
+.max-w-md {
+    max-width: 900px;
+}
+.max-w-sm {
+    max-width: 600px;
+}
+
+.bt-1 {
+    border-top: 1px solid;
+}
+.br-1 {
+    border-right: 1px solid;
+}
+.bl-1 {
+    border-left: 1px solid;
+}
+.bb-1 {
+    border-bottom: 1px solid;
+}
+.border-gray-300 {
+    border-color: #d1d5db;
+}
+
+.text-align-center {
+    text-align: center;
+}
+.border-indigo {
+    border-color: #4f46e5;
+}
+.text-indigo {
+    color: #4f46e5;
+}
+.text-black {
+    color: #1e293b;
+}
+.gray-100 {
+    color: #f3f4f6;
+}
+.bg-gray-100 {
+    background-color: #f3f4f6;
+}
+
+.text-4xl {
+    font-size: 2.25rem; /* 36px */
+    line-height: 2.5rem; /* 40px */
+}
+.text-3xl {
+    font-size: 1.875rem; /* 30px */
+    line-height: 2.25rem; /* 36px */
+}
+.text-2xl {
+    font-size: 1.5rem; /* 24px */
+    line-height: 2rem; /* 32px */
+}
+.text-xl {
+    font-size: 1.25rem; /* 20px */
+    line-height: 1.75rem; /* 28px */
+}
+.text-lg {
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.75rem; /* 28px */
+}
+.text-md {
+    font-size: 1rem; /* 16px */
+    line-height: 1.5rem; /* 24px */
+}
+.text-sm {
+    font-size: 0.875rem; /* 14px */
+    line-height: 1.25rem; /* 20px */
+}
+
+
+.font-bold {
+    font-weight: 700;
+}
+.font-semibold {
+    font-weight: 600;
+}
+.font-light {
+    font-weight: 300;
+}
+
+.grid {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(5px, auto);
+}
+
+.image-cropper {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+    .image-cropper {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+    .sm-flex {
+        display: flex;
+    }
+}
+img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.max-w-fit {
+    max-width: fit-content
+}
+
+.container {
+    max-width: fit-content;
+}
+.highlighted {
+    background-color: yellow;
+}
+td {
+    padding: 0px 15px 0px 0px;
+}
+tbody::before
+{
+    content: '';
+    display: table-row;
+    height: 10px;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.sr-only {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.inset-0 {
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.rounded-md {
+    border-radius: 5px;
+}
+.list-inside {
+    list-style-position: inside;
+}
+.list-none {
+    list-style-type: none;
+}
+
+.inner-shadow-bottom {
+    box-shadow: inset 0 -10px 10px -8px rgb(0 0 0 / 0.10);
+  }
